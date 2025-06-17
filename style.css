@@ -1,0 +1,130 @@
+* {
+    font-family: monospace;
+    background-color: Lightblue;
+    box-sizing: border-box;
+    font-weight: bold;
+}
+/* universal selector all elements*/
+tbody>tr>:nth-child(1) {
+    border: none;
+    visibility: hidden;
+    /* column 1 hidden - helps with layout*/
+}
+
+tbody>tr>:nth-child(2) {
+    border: 5px ridge magenta;
+    /* column 2 */
+}
+
+tbody>tr>:nth-child(3) {
+    border: 5px ridge purple;
+    }
+    /* column 3 */
+
+tbody>tr>:nth-child(4) {
+    border: 5px ridge turquoise;
+    }
+    /* column 4*/
+
+tbody>tr>:nth-child(5) {
+    border: 5px ridge Darkgreen;
+    }
+    /* column 5 */
+
+li {
+    float: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    list-style-type: none;
+    }
+/*list items nav bar- removed bullet points and 
+padding helps create spacing inbetween the nav list items.
+Float left forces li in nav bar into a left position*/
+
+.navigation-bar 
+{ 
+  position: fixed; 
+  top: 10px; 
+}
+/* nav bar fixed at top*/
+
+ul {
+    list-style-type: none;
+    display: inline-block;
+    position: fixed;
+    box-sizing: border-box;
+    border: 5px solid teal;
+    width: 100%;
+    padding: 0;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 30px;
+}
+/*ul bullet points are hidden and position is fixed */
+h2 {
+    color: brown;
+    font-weight: bold;
+    font-size: 30px;
+    position: fixed;
+    bottom: 10px;
+}
+
+#html-table {
+    padding: 10px 10px;
+    font-size: auto;
+    text-align: center;
+    position: relative;
+    box-sizing: border-box;
+    top: 125px;
+    width: 100%;
+    float:left;
+}
+/* id tag for table content-easier styling*/
+h1 {
+    color: teal;
+    position: fixed;
+    top: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px solid blue;
+}
+
+td {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+footer {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    font-size: 12px; 
+    font-weight: bold;
+    color: Midnightblue;
+     }
+/* footer im fixed position*/
+th {
+    font-size: 30px;
+    font-weight: 50px;
+}
+
+a {
+    color: black;
+    font-size: 20px;
+    font-weight: 30px;
+}
+
+a.hover {
+    background-color: blue;
+}
+
+a.visited {
+    background-color: red;
+}
+
+h5 {
+    border: 1px solid teal;
+    position: relative ;
+    text-align: left;
+}
